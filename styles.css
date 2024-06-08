@@ -65,6 +65,20 @@ body {
     align-items: flex-start;
 }
 
+
+figure{
+    display: flex;
+}
+
+figure img{
+    min-width: 350px;
+    min-height: 175px;
+    border-radius:100%
+}
+
+figcaption{
+    justify-content: center;
+}
 .right-section {
     display: flex;
     align-items: center;
@@ -114,4 +128,32 @@ body {
     margin: 10px 0;
     padding: 10px;
     text-align: left;
+}
+
+
+#boutons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(38, 39, 40);
+    padding: 5px;
+    margin-bottom: 100px;
+    transition: all 0.15s ease-out;
+}
+
+.btns:hover {
+    background-color: gainsboro;
+    color: black;
+    transform: scale(1.1);
+}
+
+#titre {
+    text-decoration: none;
+    color: white;
 }
